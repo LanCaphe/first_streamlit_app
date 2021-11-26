@@ -22,9 +22,9 @@ def choose_movie_or_tvshow ():
 
 choose_movie_or_tvshow()
 
-st.sidebar.selectbox(
+add_actor_box= st.sidebar.selectbox(
 "Have you... a favorite actor or actrice?",
-pd.Series
+("Ryan Gosling", "Emma Stone")
  )
 
 
