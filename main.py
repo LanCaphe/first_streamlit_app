@@ -5,6 +5,7 @@ import pandas as pd
 st.title("Hello, I am Harshad... ")
 st.write( " and I help you to find a movie or a tvshows for tonight")
 
+<<<<<<< HEAD
 moviesdata = pd.read_csv('csv/movies.csv')
 tvshowdata = pd.read_csv('csv/tvshows.csv')
 
@@ -32,4 +33,6 @@ add_actor_box= st.sidebar.selectbox(
 "Have you... a favorite actor or actrice?",
 ("Ryan Gosling", "Emma Stone")                      
  )
+
+
 
